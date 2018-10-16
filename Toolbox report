@@ -1,0 +1,16 @@
+AI and algorithm toolbox
+-------------------------
+
+1. Testing the different cost counts:
+    a. The g-cost is the shortest distance from the start to the end. The final cost in the end is the number of the cost at the destination of the path.(see g-cost.png)
+    b. The h-cost is the estimated shortest distance from the end to the start. The distance is calculated without keeping track of all the obstacles. The final cost in the end is the number of the cost at the destination of the path. The destination is here the start square. (see h-cost.png)
+    c. The f-cost is the sum of the g- and h- cost. So the total sum that is printed out is the number of the path the program has chosen. The most efficient way is when this number is the smallest. (see f-cost.png)
+    
+2. Paul gets Diagonals(see diagonalmovement.png)
+    In this screenshot we can clearly see that it is 2 steps shorter for paul to cross diagonally and it only costs 1 addition point to do it.
+
+3. Paul gets Hops (see paulhops.png)
+    In this screenshot we see the three cost scores( left to right: g,h,f). It is most clear in the left window that it costs less to hop over the lava than to go around.
+    
+4. Paul gets Swamps (see paulinswamp.png)
+    We can see that it costs three extra moves to go through a swamp but it would cost mor to go round the big wall.
